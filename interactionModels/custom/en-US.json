@@ -1,0 +1,105 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help",
+            "what can I ask you",
+            "what can you do",
+            "how can you help",
+            "what do you do",
+            "what can I do",
+            "assist me",
+            "I need help",
+            "can you help me"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "close curiosities",
+            "cancel",
+            "never mind",
+            "forget it",
+            "stop this",
+            "end this",
+            "quit"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "exit",
+            "end",
+            "halt",
+            "finish",
+            "quit"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "yes",
+            "sure",
+            "okay",
+            "please",
+            "I want to",
+            "alright",
+            "yep",
+            "yeah",
+            "i want another",
+            "give me another fact",
+            "i want anoter fact",
+            "yes i want another fact",
+            "yes give another fact"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "no",
+            "no thanks",
+            "not now",
+            "I\u0027m done",
+            "stop",
+            "nope",
+            "not really",
+            "nah"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "I don\u0027t understand",
+            "I didn\u0027t get that",
+            "can you repeat",
+            "can you repeat that",
+            "say that again",
+            "what did you say",
+            "I missed that",
+            "I don\u0027t know"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "tell me a fun fact about Mexico",
+            "tell me an interesting fact about Mexico",
+            "tell me about Mexico",
+            "give me a fun fact about Mexico"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "mexico curiosities"
+    }
+  }
+}

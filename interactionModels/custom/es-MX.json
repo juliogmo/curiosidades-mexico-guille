@@ -1,0 +1,103 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ayuda",
+            "puedes ayudarme",
+            "necesito ayuda",
+            "qué puedo hacer"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cerrar curiosidades",
+            "cancelar",
+            "olvídalo",
+            "no importa",
+            "detén esto",
+            "termina esto",
+            "quitar"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "detener",
+            "salir",
+            "terminar",
+            "parar",
+            "finalizar"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "sí",
+            "claro",
+            "vale",
+            "por favor",
+            "quiero",
+            "si dime mas",
+            "dime otro dato curioso",
+            "dime otra curiosidad",
+            "dime otra curiosidad de Mexico",
+            "dame otra curiosidad",
+            "dame otra curiosidad de Mexico",
+            "quiero saber otro dato",
+            "quiero saber otro dato curioso",
+            "si dame otro dato",
+            "si dame otro dato curioso",
+            "dame otro dato curioso",
+            "de acuerdo",
+            "sí quiero"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "no",
+            "no gracias",
+            "no ahora",
+            "he terminado",
+            "detente",
+            "nope",
+            "mejor no",
+            "no quiero"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "no entiendo",
+            "no entendí eso",
+            "puedes repetir",
+            "di eso otra vez",
+            "qué dijiste",
+            "me lo perdí",
+            "no sé"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "dime un dato curioso de México",
+            "dime un dato curioso de Mexico",
+            "cuentame sobre Mexico",
+            "dame un dato curioso de Mexico"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "curiosidades mexico"
+    }
+  }
+}
